@@ -1,0 +1,17 @@
+.hero-enter{
+    opacity: 0;
+}
+/* This is where we can add the transition*/
+.hero-enter-active{
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+/* This fires as soon as the this.state.showList is false */
+.hero-exit{
+    opacity: 1; 
+}
+/* fires as element leaves the DOM*/
+.hero-exit-active{
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
